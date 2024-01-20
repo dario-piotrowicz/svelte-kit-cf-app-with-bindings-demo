@@ -22,13 +22,13 @@
     "svelte-check": "^3.6.0",
     "tslib": "^2.4.1",
     "typescript": "^5.0.0",
-    "vite": "^4.4.2",
-    "wrangler": "beta"
+    "vite": "^4.4.2"
   },
   "type": "module",
   "pnpm": {
     "overrides": {
-      "@sveltejs/kit": "/Users/dario/Repos/my-repos/svelte-kit/packages/kit"
+      "@sveltejs/kit": "/Users/dario/Repos/my-repos/svelte-kit/packages/kit",
+      "@sveltejs/adapter-cloudflare": "/Users/dario/Repos/my-repos/svelte-kit/packages/adapter-cloudflare"
     }
   }
 }
