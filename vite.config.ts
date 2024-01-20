@@ -7,7 +7,7 @@ export default defineConfig({
     fs: {
       allow: [
         searchForWorkspaceRoot(process.cwd()),
-        '/Users/dario/Repos/my-repos/svelte-kit/packages/kit',
+        "/Users/dario/Repos/my-repos/svelte-kit/packages/kit",
       ],
     },
   },
