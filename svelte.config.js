@@ -14,17 +14,8 @@ const config = {
     // See https://kit.svelte.dev/docs/adapters for more information about adapters.
     adapter: adapter({ nodeCompat: true }),
     devPlatform: {
-      env: (
-        await getBindingsProxy({
-          bindings: {
-            MY_KV: {
-              type: "kv",
-              id: "xxxxx",
-            },
-          },
-        })
-      ).bindings,
-    }
+      env: (await getBindingsProxy()).bindings,
+    },
   },
 };
 
